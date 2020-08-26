@@ -1,0 +1,74 @@
+body {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background-color: #030303;
+    padding: 0 10% 0 10%;
+}
+
+.session1 {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.title {
+    padding-right: 30%;
+    font-size: 3em;
+}
+
+.text {
+    color: #B2ACB9;
+}
+
+button {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    width: 15px;
+    height: 15px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.img1 {
+    width: 20em;
+    
+}
+
+.img2 {
+    width: 13em;
+   
+    float: right;
+}
+
+input[type="text"]  {
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+.btn1{
+    margin-top: 10px;
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    
+}
+.btn2{
+    margin-top: 10px;
+    background-color: white;
+    width: 70px;
+    height: 16px;
+    margin-left: 50px;
+}
+.btn_credito{
+    margin-top: 10px;
+    background-color: white;
+    width: 100px;
+    height: 20px;
+}
+
