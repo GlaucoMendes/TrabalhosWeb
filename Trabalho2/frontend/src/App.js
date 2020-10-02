@@ -31,7 +31,6 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
-
                 <h2>Registrar Estudante</h2>
                 <StudentForm func={this.createStudent} />
                 <br /><br />
@@ -46,7 +45,6 @@ export default class App extends React.Component {
                             <td>Editar</td>
                             
                         </tr>
-
                         {this.state.students.map(student => {
                             return <tr key={student.id}>
                                 <td>{student.name}</td>
@@ -64,16 +62,12 @@ export default class App extends React.Component {
                                                 <StudentForm student={student} func={this.updateStudent} func0={() => this.setState({ editForm: <div></div> })} />
                                             </div>
                                     })
-                                }}>Edit</button></td>
-                               
+                                }}>Edit</button></td>    
                             </tr>
                         })}
                     </thead>
                 </table>
-
                 {this.state.editForm}
-
-
             </div>);
     }
 

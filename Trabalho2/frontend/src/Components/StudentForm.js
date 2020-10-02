@@ -4,7 +4,6 @@ export default class StudentForm extends React.Component {
 
     constructor(props) {
         super();
-     
         this.isUpdate = false;
         if (props.student != null)
             this.isUpdate = true;
@@ -23,7 +22,6 @@ export default class StudentForm extends React.Component {
     handleGrade2Change = (event) => {
         this.setState({ grade2: event.target.value });
     }
-     refresh = 0;
     render() {
         return <React.Fragment>
             <label>Estudante:</label>

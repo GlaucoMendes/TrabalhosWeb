@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgb(216,234,252);
+}
+
+.root{
+    background-color: blueviolet;
+}
+.main{
+    background-color: blueviolet;
+    border-color: crimson;
+    border-radius: 2px;
+}
+
+.table1{
+    background-color:blueviolet ;
+}
+.core{
+    border: 20px;
+}
+.mediaVermelha{
+    background-color: red;
+}
+.mediaVerde{
+    background-color: greenyellow;
+}
